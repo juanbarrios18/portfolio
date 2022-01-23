@@ -5,7 +5,7 @@ const app = Vue.createApp({
   data() {
     return {
       // the date my career started (change to yours)
-      careerStartDate: 2017,
+      careerStartDate: 2018,
 
       // the date copyright started (change to yours)
       copyrightStartDate: 2021,
@@ -50,9 +50,6 @@ const app = Vue.createApp({
         }, {
           url: '#skills',
           title: { en: 'Skills', es: 'Skills' }
-        }, {
-          url: '#portfolio',
-          title: { en: 'Portfolio', es: 'Portafolio' }
         }, {
           url: '#contact',
           title: { en: 'Contact', es: 'Contacto' }
@@ -147,62 +144,46 @@ const app = Vue.createApp({
       // list of experience items to loop through it
       experienceItems: [
         {
-          date: '2009',
-          companyName: { en: 'Google Inc.', es: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', es: 'مطور الواجهة الأمامية' },
+          date: '2007',
+          companyName: { en: 'La Gloria Medical Center, S.A.', es: 'La Gloria Medical Center, S.A.' },
+          jobTitle: { en: 'Information Technology Specialist', es: 'مطور الواجهة الأمامية' },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
-            es: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
-          }
-        }, {
-          date: '2011',
-          companyName: { en: 'Facebook Inc.', es: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', es: 'مطوّر الويب المتكامل' },
-          desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
-            es: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
-          }
-        }, {
-          date: '2013',
-          companyName: { en: 'Envato Inc.', es: 'شركة انفاتو' },
-          jobTitle: { en: 'UI/UX Developer', es: 'مطور UI/UX' },
-          desc: {
-            en: 'Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript.',
-            es: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
-          }
-        }, {
-          date: '2015',
-          companyName: { en: 'Google Inc.', es: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', es: 'مطور الواجهة الأمامية' },
-          desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Monitored technical aspects of the informatic solutions of the organization.',
             es: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
           date: '2017',
-          companyName: { en: 'Facebook Inc.', es: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', es: 'مطوّر الويب المتكامل' },
+          companyName: { en: 'Decathlon Spain', es: 'Decathlon Spain' },
+          jobTitle: { en: 'Sport Specialist Seller', es: 'Vendedor especializado en deportes' },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
+            en: 'Technical Seller and responsible of Kayak / SUP section. \n \n Build an annual offer, plan and lead the sport sales',
             es: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+          }
+        }, {
+          date: '2018',
+          companyName: { en: 'Decathlon Spain', es: 'Decathlon Spain' },
+          jobTitle: { en: 'Information Technology Specialist', es: 'Information Technology Specialist' },
+          desc: {
+            en: 'Development and maintenance in www.Decathlon.es related to improvements and commercial actions. \n \n Development support to Decathlon internal solutions. \n \n Provide support and technical training for applications users.',
+            es: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
           }
         }, {
           date: '2019',
-          companyName: { en: 'Google Inc.', es: 'شركة جوجل' },
-          jobTitle: { en: 'Front-End Developer', es: 'مطور الواجهة الأمامية' },
+          companyName: { en: 'Decathlon Spain', es: 'Decathlon Spain' },
+          jobTitle: { en: 'Full-Stack Developer', es: 'Full-Stack Developer' },
           desc: {
-            en: 'Monitored technical aspects of the front-end delivery for projects.',
+            en: 'Design, build and integrate marketplace solutions, workng with MEVN Stack(MongoDb, ExpressJs, VueJs, NodeJs). \n \n Frontend development, API integrations, backend development.',
             es: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
           }
         }, {
-          date: '2021',
-          companyName: { en: 'Facebook Inc.', es: 'شركة فيسبوك' },
-          jobTitle: { en: 'Full Stack Developer', es: 'مطوّر الويب المتكامل' },
+          date: '2020',
+          companyName: { en: 'Decathlon Spain', es: 'Decathlon Spain' },
+          jobTitle: { en: 'FrontEnd Developer', es: 'FrontEnd Developer' },
           desc: {
-            en: 'Collaborate with creative and development teams on the execution of ideas.',
+            en: 'Build products and services Marketplace with NuxtJs and integrate with externals partners API\'s',
             es: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
           }
-        }, {}, {}
+        }, {}
       ],
 
       // current page of portfolio items

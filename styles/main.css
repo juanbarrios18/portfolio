@@ -1743,6 +1743,7 @@ html[dir=rtl] .has-tooltip:hover .custom-tooltip-right, html[dir=rtl] .enable-fo
 .has-ultimate-tooltip .ultimate-tooltip p {
   line-height: 1.7rem;
   font-size: 1.1rem;
+  white-space: pre-wrap;
 }
 .light_theme .has-ultimate-tooltip .ultimate-tooltip p {
   color: hsl(var(--dark-h), var(--dark-s), calc(var(--dark-l) + 25%));
