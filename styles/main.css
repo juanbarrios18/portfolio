@@ -3942,11 +3942,30 @@ html[dir=rtl] .about-section .section-content .about-img .layer:first-of-type:be
 .about-section .section-content .about-text p {
   margin: 0;
 }
+
+.about-section .section-content .about-text .text-box-inline .header{
+  display: flex;
+}
+
+.about-section .section-content .about-text .text-box-inline .header h2{
+  line-height: 1.7;
+}
+
+.about-section .section-content .about-text .text-box-inline .header img{
+  height: 110px;
+  border-radius: 50%;
+  margin-left: 28px;
+}
+
+
 @media (max-width: 767px) {
   .about-section .section-content .about-img .layer img {
     top: 145px;
     width: 55%;
     height: 45%;
+  }
+  .about-section .section-content .about-text .text-box-inline .header h2{
+    width: 65%;
   }
 }
 
