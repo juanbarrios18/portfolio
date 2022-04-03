@@ -189,8 +189,8 @@ const app = Vue.createApp({
           companyName: { en: 'Atam - Vivelibre', es: 'Atam - Vivelibre' },
           jobTitle: { en: 'Vue FrontEnd Developer', es: 'Vue FrontEnd Developer' },
           desc: {
-            en: 'Design, build and integrate frontEnd projects.',
-            es: 'Design, build and integrate frontEnd projects.'
+            en: 'Design, build and integrate frontEnd projects with vueJs and Typescript.',
+            es: 'Design, build and integrate frontEnd projects with vueJs and Typescript.',
           }
         }
       ],
