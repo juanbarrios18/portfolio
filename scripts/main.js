@@ -11,7 +11,7 @@ const app = Vue.createApp({
       copyrightStartDate: 2021,
 
       // for the template theme
-      appTheme: 'light_theme',
+      appTheme: 'dark_theme',
       savedTheme: null,
 
       // flag to toggle the preloader
