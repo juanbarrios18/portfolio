@@ -146,10 +146,10 @@ const app = Vue.createApp({
         {
           date: '2007',
           companyName: { en: 'La Gloria Medical Center, S.A.', es: 'La Gloria Medical Center, S.A.' },
-          jobTitle: { en: 'Information Technology Specialist', es: 'مطور الواجهة الأمامية' },
+          jobTitle: { en: 'Information Technology Specialist', es: 'Especiaista en tecnologias de la informacion'},
           desc: {
-            en: 'Monitored technical aspects of the informatic solutions of the organization.',
-            es: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+            en: 'Monitoring all informatic technical solutions of the organization.',
+            es: 'Monitoring all informatic technical solutions of the organization.',
           }
         }, {
           date: '2017',
@@ -157,7 +157,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Sport Specialist Seller', es: 'Vendedor especializado en deportes' },
           desc: {
             en: 'Technical Seller and responsible of Kayak / SUP section. \n \n Build an annual offer, plan and lead the sport sales',
-            es: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+            es: 'Technical Seller and responsible of Kayak / SUP section. \n \n Build an annual offer, plan and lead the sport sales',
           }
         }, {
           date: '2018',
@@ -165,7 +165,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Information Technology Specialist', es: 'Information Technology Specialist' },
           desc: {
             en: 'Development and maintenance in www.Decathlon.es related to improvements and commercial actions. \n \n Development support to Decathlon internal solutions. \n \n Provide support and technical training for applications users.',
-            es: 'تم تحويل تخطيطات Photoshop إلى صفحات ويب باستخدام HTML و CSS و JavaScript.'
+            es: 'Development and maintenance in www.Decathlon.es related to improvements and commercial actions. \n \n Development support to Decathlon internal solutions. \n \n Provide support and technical training for applications users.',
           }
         }, {
           date: '2019',
@@ -173,7 +173,7 @@ const app = Vue.createApp({
           jobTitle: { en: 'Full-Stack Developer', es: 'Full-Stack Developer' },
           desc: {
             en: 'Design, build and integrate marketplace solutions, workng with MEVN Stack(MongoDb, ExpressJs, VueJs, NodeJs). \n \n Frontend development, API integrations, backend development.',
-            es: 'مراقبة الجوانب الفنية لتطوير الواجهات الأمامية للمشاريع.'
+            es: 'Design, build and integrate marketplace solutions, workng with MEVN Stack(MongoDb, ExpressJs, VueJs, NodeJs). \n \n Frontend development, API integrations, backend development.',
           }
         }, {
           date: '2020',
@@ -181,9 +181,18 @@ const app = Vue.createApp({
           jobTitle: { en: 'FrontEnd Developer', es: 'FrontEnd Developer' },
           desc: {
             en: 'Build products and services Marketplace with NuxtJs and integrate with externals partners API\'s',
-            es: 'تعاونت مع الفرق الإبداعية في تطوير وتنفيذ أفكار مبتكرة.'
+            es: 'Build products and services Marketplace with NuxtJs and integrate with externals partners API\'s'
           }
-        }, {}
+        },
+        {
+          date: '2022',
+          companyName: { en: 'Atam - Vivelibre', es: 'Atam - Vivelibre' },
+          jobTitle: { en: 'Vue FrontEnd Developer', es: 'Vue FrontEnd Developer' },
+          desc: {
+            en: 'Design, build and integrate frontEnd projects.',
+            es: 'Design, build and integrate frontEnd projects.'
+          }
+        }
       ],
 
       // current page of portfolio items
